@@ -1,0 +1,138 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv-esp} % a4paper for A4
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{fotos/foto1.jpg} % Profile picture
+
+\cvname{Ramón} % Your name
+\cvjobtitle{Ingeniero Técnico en \\ Tecnologías de \\Telecomunicación} % Job title/career
+
+\cvdate{3 Abril 1994} % Date of birth
+\cvaddress{España, Granada, Calle Carretera de la Sierra 18008} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+34 684095402} % Phone number
+\cvsite{@ramonferng} % Personal website
+\cvmail{ramnfernandez@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{Soy estudiante del Máster Profesionalizante de Ingeniería de Tecnologías de la Telecomunicación en la UGR, actualmente me encuentro cursando el primer año y estoy en proceso de elaboración del Trabajo Fin de Máster sobre Ciberseguridad.
+Mis intereses son bastante amplios, mi especialidad es la Telemática, aunque mi Proyecto de Fin de Grado fue de Electrónica utilizando un microchip low-cost para una aplicación IoT. También tengo interés en el diseño de software, manejando generalmente Java y C, aunque estoy iniciandome con Python. Soy, además, usuario habitual de Linux.
+} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{
+{VHDL/2},
+{Arduino/2.5},
+{Python/1},
+{C/3},
+{Java/3.5}}
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Educación}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{desde 2017}{Máster Profesionalizante de Ingeniería en Tecnologías de Telecomunicación}{\\Universidad de Granada}{}
+	\twentyitem{2014 - 2017}{Grado de Ingeniería en Tecnologías de Telecomunicación, con especialidad en Telemática}{\\Universidad de Granada}{}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experiencia}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2017}{`UGR LAN PARTY'}{\\Proyecto que consiste en la realización de diseño, despliegue e implementación de una red telemática, dirigido por el Prof. Miguel Ángel López Gordo.}{}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+\section{Idiomas}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2017}{Nivel B2 de Inglés}{}{Cambridge First Certificate}
+    \twentyitem{2012 y 2017}{Curso de inmersión lingüística de inglés en España}{\\Beca concedida por el Ministerio de Educación, Cultura y Deportes del Gobierno de España}{Duración: +100 horas}
+	\twentyitem{2011}{Curso de inmersión lingüística de inglés en Brighton y Londres}{\\Beca concedida por el Ministerio de Educación, Cultura y Deportes del Gobierno de España}{Duración: 1 mes}
+\end{twenty}
+
+\section{Habilidades}
+\subsection{Software}
+\begin{enumerate}
+	\item \textbf{Software matemático :} MatLab, Mathematica, Maxima, Octave y Statgraphics.
+	\item \textbf{Programas orientados a la Electrónica:} OrCad (Pspice), Multisim, PIC C Compiler, ISIS Professional y Quartus
+	\item \textbf{Programas ofimáticos:} Microsoft Word, Access, PowerPoint y Excel.
+\end{enumerate}
+
+\subsection{Lenguajes de programación}
+\begin{enumerate}
+	\item \textbf{C:} Primer lenguaje usado en la carrera.
+    \item \textbf{Java:} Segundo lenguaje aprendido más a fondo.
+	\item \textbf{Python:} Lenguaje en proceso de aprendizaje.
+	\item \textbf{VHDL:} Usado para programar FPGAs de Altera en los laboratorios de la ETSIIT e inicializándome con placas de Xilinx mediante proyectos con Vivado.
+	\item \textbf{Arduino: } Usado durante la realización del proyecto IoT del TFG.
+	
+\end{enumerate}
+
+\subsection{Lenguajes de marcado}
+\begin{enumerate}
+	\item \textbf{\LaTeX:} Usado para la entrega de trabajos en la Universidad, TFG y el desarrollo del TFM.
+\end{enumerate}
+
+\subsection{Sistemas Operativos}
+\begin{enumerate}
+	\item Windows: Usuario habitual
+	\item Linux: Uso habitual y en continuo aprendizaje
+\end{enumerate}
+
+
+\end{document}
